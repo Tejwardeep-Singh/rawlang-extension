@@ -1,0 +1,41 @@
+{
+    "icon": "icons/rawlang.png",
+    "name": "rawlang",
+    "displayName": "RawLang Support",
+    "description": "Full support for RawLang file icons",
+    "version": "1.0.0",
+    "publisher": "TEJWARDEEPSINGH",
+    "engines": {
+      "vscode": "^1.80.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Tejwardeep-Singh/rawlang"
+    },
+    "keywords": ["rawlang", "programming language", "syntax", "custom language"],
+    "categories": ["Programming Languages"],
+    "contributes": {
+      "languages": [
+        {
+          "id": "rawlang",
+          "aliases": ["RawLang", "rawlang"],
+          "extensions": [".raw"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "iconThemes": [
+        {
+          "id": "rawlang-icons",
+          "label": "RawLang Icons",
+          "path": "./icons/rawlang-icon-theme.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "rawlang",
+          "scopeName": "source.rawlang",
+          "path": "./syntaxes/rawlang.tmLanguage.json"
+        }
+      ]
+    }
+  }

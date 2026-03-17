@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+      "rawlang": {
+        "iconPath": "./rawlang.png"
+      }
+    },
+    "fileExtensions": {
+      "raw": "rawlang"
+    }
+  }
